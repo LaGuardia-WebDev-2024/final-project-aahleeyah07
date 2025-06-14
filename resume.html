@@ -6,15 +6,32 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      .parent-flex {
+        display: flex;
+        background-color: rgb(224, 197, 249);
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+      }
+
+      .parent-flex img {
+        width: 150px;
+        padding: 20px;
+      }
+      .child-flex p {
+        background-color: rgb(249, 219, 236);
+        padding: 20px;
+        margin: 20px;
+      }
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a class="active" href="resume.html">Resume</a></li>
+      <li><a href="aboutme.html">Sephora Frags</a></li>
+      <li><a href="art.html">Arabic Frags</a></li>
+      <li><a class="active" href="resume.html">Indie Frags</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -31,7 +48,30 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Resume</h1>
-
+    <h1>Top 2 Indie Perfumes</h1>
+ <div class="parent-flex">
+      <div class="child-flex">
+        <img
+          src="https://dapperfragrances.com/wp-content/uploads/2024/09/Escapade-Gourmande.webp"
+        />
+      </div>
+      <div class="child-flex">
+        <p>
+         Dapper Fragrances Escapade Gourmande is a dupe for Maison Mataha Escapade Gourmande. While it's always good to buy the actual fragrance, unfortunately Escapade Gourmande doesnt last on my skin even though it's $215. Dapper's version is a little sweeter i'd say but also still keeps the DNA. I love this dupe. The 5ml is $15, the 15ml is $25, the 20ml is $30, the 30ml is $35, the 50ml is $65 and the 100ml is $120.
+        </p>
+      </div>
+    </div>
+    <div class="parent-flex">
+      <div class="child-flex">
+        <p>
+          Chantel's Whipped Marshmallow Cake is a very affordable fragrance from SugarMeSweet on Etsy. It's a collab with Sweet Smells with Chantel on TikTok and smells exactly like the name. It also lasts atleast 6-8 hours on my skin. When it dries down it smells just like Delizia di Marshmallow. It's not headache inducing either. So so good. The 10ml is $12, the 30ml is $29, the 50ml is $42 and the 100ml is $78.
+        </p>
+      </div>
+      <div class="child-flex">
+        <img
+          src="https://i.etsystatic.com/18924285/r/il/bd3910/6470198136/il_794xN.6470198136_gj9b.jpg"
+        />
+      </div>
+    </div>
   </body>
 </html>

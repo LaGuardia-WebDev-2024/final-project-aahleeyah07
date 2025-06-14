@@ -6,17 +6,22 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
-      .parent-flex {
+    .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: rgb(224, 197, 249);
+        align-items: center;
         justify-content: space-around;
-        padding: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
       }
 
       .parent-flex img {
-        max-width: 30%;
-        border-radius: 10px;
+        width: 150px;
+        padding: 20px;
+      }
+      .child-flex p {
+        background-color: rgb(249, 219, 236);
+        padding: 20px;
+        margin: 20px;
       }
     </style>
   </head>
@@ -24,9 +29,9 @@
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a class="active" href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a href="aboutme.html">Sephora Frags</a></li>
+      <li><a class="active" href="art.html">Arabic Frags</a></li>
+      <li><a href="resume.html">Indie Frags</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -43,24 +48,31 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>My Art</h1>
+    <h1>Top 2 Arabic Perfumes</h1>
 
-    <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+ <div class="parent-flex">
+      <div class="child-flex">
+        <img
+          src="https://oudavenue.com/cdn/shop/files/15_06db0aac-0de3-40ca-99f1-0dcb3bf3a25a_1600x.png?v=1729402887"
+        />
+      </div>
+      <div class="child-flex">
+        <p>
+         Al Rehab Choco Musk is a very very affordable fragrance at around $5-$7 on Amazon. I prefer to have the oil and spray version because the oil lasts all day and is strong but can't be put on clothes. The spray lasts on clothes but not skin. Layering them creates a masterpiece. It smells like vanilla to some, but to me it smells like chocolate chip cookies.
+        </p>
+      </div>
     </div>
-
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+      <div class="child-flex">
+        <p>
+          Lattafa Angham is a dupe for Burberry Goddess. It's priced at around $33-$35 and way better than Goddess in my opinion. It's more vanilla heavy while still keeping that Goddess DNA whereas Goddess is more lavender heavy. It's Burberry Goddess but sweeter. Not too sweet though!
+        </p>
+      </div>
+      <div class="child-flex">
+        <img
+          src="https://m.media-amazon.com/images/I/81U-LCk-VnL.jpg"
+        />
+      </div>
     </div>
   </body>
 </html>
